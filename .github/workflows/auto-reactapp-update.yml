@@ -26,7 +26,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2-beta
         with:
-          version: 12
+          node-version: 12
           
       - name: GitHub Action for Yarn
         uses: Borales/actions-yarn@v2.3.0
@@ -34,9 +34,6 @@ jobs:
           # Yarn command
           cmd: install
       
-      - name: Cleaning npm
-        run: npm clean-install
-
       - name: Creating build
         run: yarn build
         
