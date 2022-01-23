@@ -4,7 +4,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Hello World from Muhammad Yousuf</h1>
+      <h2>Hello World from Muhammad Yousuf</h2>
+      <h3>My first react app</h3>
     </div>
   );
 }
