@@ -35,7 +35,7 @@ jobs:
           cmd: install
       
       - name: Cleaning npm
-      - run: npm clean-install
+        run: npm clean-install
 
       - name: Creating build
         run: yarn build
